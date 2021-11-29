@@ -6,7 +6,7 @@
 * yarn package manager v1.22.1
 * npm v8.1.0
 
-### Please make sure the port clear of 5000
+### Please make sure the port clear of 3000
 
 
 
