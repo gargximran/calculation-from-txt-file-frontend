@@ -20,7 +20,7 @@ const DNDItem = props => {
                     <div>
                         <a target={'_blank'}
                            rel="noreferrer"
-                           href={'http://localhost:5000'  + props.item.filePath}
+                           href={'http://3.83.203.121/api'  + props.item.filePath}
                             className={'bg-gray-800 text-xs text-white font-bold rounded-full py-1 px-3'}
                         >View Input</a>
                     </div>

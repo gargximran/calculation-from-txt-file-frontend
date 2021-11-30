@@ -8,7 +8,7 @@ import {io} from 'socket.io-client'
 
 import './index.css';
 
-const socket = io("http://localhost:5000");
+const socket = io("http://3.83.203.121", {path: '/api/socket.io', reconnection: true});
 window.socket = socket
 
 const elem = document.createElement('div')
@@ -16,7 +16,7 @@ document.body.insertBefore(elem, document.getElementsByTagName('script')[0])
 
 
 // initialize axios default endpoint for api request
-axios.defaults.baseURL = process.env.API_URL || 'http://localhost:5000'
+axios.defaults.baseURL = process.env.API_URL || 'http://3.83.203.121/api'
 
 
 ReactDOM.render(
